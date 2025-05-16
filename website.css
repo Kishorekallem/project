@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.nav{
+    background-color: cadetblue;
+    
+}
+.Company{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+.nav_menu{
+    text-align: center;
+}
+.nav_menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.nav_menu ul li{
+    width: 120px;
+    margin: 15px;
+    font-size: 20px;
+}
+ .nav_menu, ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav_menu .fa{
+    margin-right: 8px;
+}
+.nav_menu ul :hover{
+    background: rgb(2, 85, 88);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;    
+}
+.sub_menu1 ul {
+display: none;
+}
+.nav_menu ul li:hover .sub_menu1  {
+display:block;
+position: absolute;
+background: rgb(2, 85, 88);
+border-radius: 15px;
+border-top-left-radius: 0px;
+
+ } 
+.nav_menu ul li:hover .sub_menu1 ul {
+    display:block;
+ } 
+.nav_menu ul li:hover .sub_menu1 ul li{
+    width: 200px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav_menu ul li:hover .sub_menu1 ul li:last-child{
+border-bottom: none;
+}
+.matter{
+    background: url(https://p.turbosquid.com/ts-thumb/dk/MyGAz1/cz/concretebridge28_c_0000/jpg/1640791978/1920x1080/fit_q87/e07eb66ca634ac22dd0f1ee1674f64adf62101f1/concretebridge28_c_0000.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    z-index: -1;
+}
+.matter_title{
+    display: inline-block;  
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5px;
+    word-spacing: 5px;
+}
+h3{
+    padding: 10px;
+    text-decoration: dashed;
+}
+.products{
+    display: block;
+    justify-content: space-evenly;
+    background-color:cadetblue ;
+    
+}
+.products h3{
+    text-align: center;
+    font-size: 25px;
+}
+.products h4{
+    text-align: center;
+    font-size: 25px;
+    
+}
+.product1{
+    border: 3px solid rgb(2, 85, 88);
+    display: inline-block;
+    margin: 25px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.product1 img{
+    width: 200px;
+    height: 250px;
+}
+.product1 h4 {
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.product1 p {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.buynow{
+    padding: 10px;
+    border: 3px solid rgb(2, 85, 88);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Cart{
+    padding: 10px;
+    border: 3px solid rgb(2, 85, 88);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product1:hover{
+    background-color:rgb(2, 85, 88);
+    
+}
+.buynow:hover{
+   background-color:cadetblue;  
+}
+.Cart:hover{
+   background-color:cadetblue;  
+}
+.steel_product{
+    display: block;
+    justify-content: space-evenly;
+    background-color:rgba(3, 94, 91, 0.753) ;
+}
+.steel_product h4{
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+
+
